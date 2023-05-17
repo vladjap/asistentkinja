@@ -1,9 +1,8 @@
-import {IconType} from "react-icons/lib";
 
 interface ContentGalleryItemProps {
     title: string
     description: string
-    icon: IconType
+    icon: any
     viewMoreCTA: () => void;
 }
 const ContentGalleryItem = ({ title, description, icon, viewMoreCTA } : ContentGalleryItemProps) => {
